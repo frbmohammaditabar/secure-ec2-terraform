@@ -25,5 +25,5 @@ This project uses Terraform to provision a **security-hardened EC2 instance** on
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/secure-ec2-terraform.git
+git clone https://github.com/frbmohammaditabar/secure-ec2-terraform.git
 cd secure-ec2-terraform
