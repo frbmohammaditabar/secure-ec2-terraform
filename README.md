@@ -24,15 +24,13 @@ This project uses Terraform to provision a **security-hardened EC2 instance** on
 
 ### 1. Clone this repo
 
-```bash
 git clone https://github.com/frbmohammaditabar/secure-ec2-terraform.git
 cd secure-ec2-terraform
----
+
 
 ### 2. Update Variables
 Edit variables.tf to match your AWS region and IP address:
 
-```bash
 variable "aws_region" {
   default = "us-east-1"
 }
@@ -40,20 +38,13 @@ variable "aws_region" {
 variable "my_ip_cidr" {
   default = "203.0.113.10/32" # Your IP here
 }
----
 
 ### 3. Initialize Terraform
-```bash
 terraform init
----
 ### 4. Preview the Plan
-```bash
 terraform plan
----
 ### 5. Apply the Configuration
-```bash
 terraform apply
----
 ### 📦 Files
 
 ### File	Description
